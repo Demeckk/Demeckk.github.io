@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emiliano Decker</title>
+
+</head>
+<body>
+    <div class="navbar">
+            <li>
+                <h2 class="navbar-logo">Demeck</h2>   
+            </li>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <header id="home">
+        <img class="yo" src="img/emiliano.jpg" alt="me">
+        <div class="container-info">
+            <h1>Emiliano Decker</h1>
+            <h2>Fullstack Developer</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/emilianodecker/" target="_blank">
+                    <img src="img/linkedin.svg" width="40">
+                </a>
+                <a href="https://github.com/Demeckk" target="_blank">
+                    <img src="img/github-light.svg" width="40">
+                </a>
+                <a href="mailto:deckeremiliano@gmail.com" target="_blank">
+                    <img src="img/mail.svg" width="40">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-section" id="about">
+        <h2>About Me</h2>
+        <div class="about">
+            <p>Hello, I am <span class="highlight">Emiliano</span>, a 20-year-old fullstack developer and IT technician. I am currently pursuing university studies while continuing my education in a self-taught manner.</p>
+            <p>My passion for technology has led me to explore areas such as cybersecurity and blockchain. I am always looking for new challenges and opportunities to expand my knowledge.</p>
+            <a class="btn" href="file/cv.pdf" target="_blank" download>
+                View CV
+            </a>
+        </div>  
+    </section>
+
+    <hr/>
+    <section class="skills-section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skills-item skills-item-color">
+                <h3>Frontend</h3>
+                <div class="lenguajes">
+                    <div>
+                        <img src="img/html5.svg"/>
+                        <h4>HTML</h4>
+                    </div>
+                    <div>
+                        <img src="img/javascript.svg"/>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div>
+                        <img src="img/css.svg"/>
+                        <h4>CSS</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-item">
+                <h3>Backend</h3>
+                <div class="lenguajes">
+                    <div>
+                        <img src="img/php.svg"/>
+                        <h4>PHP</h4>
+                    </div>
+
+                    <div>
+                        <img src="img/mysql.svg"/>
+                        <h4>MySQL</h4>
+                    </div>
+                    <div>
+                        <img src="img/api.svg"/>
+                        <h4>API</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-item">
+                <h3>Tools</h3>
+                <div class="lenguajes">
+                    <div>
+                        <img src="img/git.svg"/>
+                        <h4>Git</h4>
+                    </div>
+                    <div>
+                        <img src="img/bash.svg"/>
+                        <h4>BashScript</h4>
+                    </div>
+                    <div>
+                        <img src="img/trello.svg"/>
+                        <h4>Trello</h4>
+                    </div>          
+                </div>  
+            </div>
+
+            <div class="skills-item skills-item-color">
+                <h3>Learning</h3>
+                <div class="lenguajes">
+                    <div>
+                        <img src="img/react.svg"/>
+                        <h4>React</h4>
+                    </div>
+                    <div>
+                        <img src="img/typescript.svg"/>
+                        <h4>TypeScript</h4>
+                    </div>
+                    <div>
+                        <img src="img/solidity.svg"/>
+                        <h4>Solidity</h4>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>        
+
+    <hr>
+
+    <section class="projects-section" id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="img/colibri.png" alt="">
+                <div class="project-info">
+                    <h3>Colibrí Project</h3>
+                    <p>Website that notifies about the number of discarded bottles and the current amount of CO2 in the air.</p>
+                    <a href="#" target="_blank">View project →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/sayc.jpg" alt="">
+                <div class="project-info">
+                    <h3>SAyC</h3>
+                    <p>Web application that offers a schedule, a map, and information about an annual event at our school.</p>
+                    <a href="#" target="_blank">View project →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/huertaenred.png" alt="">
+                <div class="project-info">
+                    <h3>Huerta en Red</h3>
+                    <p>Social network that seeks to connect urban agriculture enthusiasts.</p>
+                    <a href="#" target="_blank">View project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="contact-title">Contact</h2>
+            <p id="form-status"></p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input
+                        type="text"
+                        class="form-input"
+                        placeholder="Your name"
+                        name="name"
+                        id="name"
+                        required
+                    >
+                </div>
+               
+                <div class="form-group">
+                    <input
+                        type="email"
+                        class="form-input"
+                        placeholder="Your email"
+                        name="email"
+                        id="email"
+                        required
+                    >
+                </div>
+               
+                <div class="form-group">
+                    <textarea
+                        class="form-input"
+                        placeholder="Message"
+                        name="message"
+                        id="message"
+                        required
+                    ></textarea>
+                </div>
+                <button type="submit" class="btn">
+                    Send
+                </button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <span>Copyright 2024. Designed and built by <i><b>Demeck</b></i>. </span>
+    </footer>
+</body>

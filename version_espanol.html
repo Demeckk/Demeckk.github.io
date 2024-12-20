@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emiliano Decker</title>
+
+</head>
+<body>
+    <div class="navbar">
+            <li>
+                <h2 class="navbar-logo">Demeck</h2>   
+            </li>
+        <ul>
+            <li>
+                <a href="#home">Inicio</a>
+            </li>
+            <li>
+                <a href="#about">Sobre mí</a>
+            </li>
+            <li>
+                <a href="#skills">Habilidades</a>
+            </li>
+            <li>
+                <a href="#projects">Proyectos</a>
+            </li>
+            <li>
+                <a href="#contact">Contacto</a>
+            </li>
+        </ul>
+    </div>
+    <header id="home">
+        <img class="yo" src="img/emiliano.jpg" alt="yo">
+        <div class="container-info">
+            <h1>Emiliano Decker</h1>
+            <h2>Desarrollador Fullstack</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/emilianodecker/" target="_blank">
+                    <img src="img/linkedin.svg" width="40">
+                </a>
+                <a href="https://github.com/Demeckk" target="_blank">
+                    <img src="img/github-light.svg" width="40">
+                </a>
+                <a href="mailto:deckeremiliano@gmail.com" target="_blank">
+                    <img src="img/mail.svg" width="40">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-section" id="about">
+        <h2>Sobre mí</h2>
+        <div class="about">
+            <p>Hola, soy <span class="highlight">Emiliano</span>, un desarrollador fullstack y técnico informático de 20 años. Actualmente curso estudios universitarios mientras continúo mi formación de manera autodidacta.</p>
+            <p>Mi pasión por la tecnología me ha llevado a explorar áreas como la ciberseguridad y blockchain. Siempre estoy en busca de nuevos desafíos y oportunidades para expandir mis conocimientos.</p>
+            <a class="btn" href="file/cv.pdf" target="_blank" download>
+                Ver CV
+            </a>
+        </div>  
+    </section>
+
+    <hr/>
+    <section class="skills-section" id="skills">
+        <h2>Habilidades</h2>
+        <div class="skills">
+            <div class="skills-item skills-item-color">
+                <h3>Frontend</h3>
+                <div class="lenguajes">
+                    <div>
+                        <img src="img/html5.svg"/>
+                        <h4>HTML</h4>
+                    </div>
+                    <div>
+                        <img src="img/javascript.svg"/>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div>
+                        <img src="img/css.svg"/>
+                        <h4>CSS</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-item">
+                <h3>Backend</h3>
+                <div class="lenguajes">
+                    <div>
+                        <img src="img/php.svg"/>
+                        <h4>PHP</h4>
+                    </div>
+
+                    <div>
+                        <img src="img/mysql.svg"/>
+                        <h4>MySQL</h4>
+                    </div>
+                    <div>
+                        <img src="img/api.svg"/>
+                        <h4>API</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-item">
+                <h3>Herramientas</h3>
+                <div class="lenguajes">
+                    <div>
+                        <img src="img/git.svg"/>
+                        <h4>Git</h4>
+                    </div>
+                    <div>
+                        <img src="img/bash.svg"/>
+                        <h4>BashScript</h4>
+                    </div>
+                    <div>
+                        <img src="img/trello.svg"/>
+                        <h4>Trello</h4>
+                    </div>          
+                </div>  
+            </div>
+
+            <div class="skills-item skills-item-color">
+                <h3>Aprendiendo</h3>
+                <div class="lenguajes">
+                    <div>
+                        <img src="img/react.svg"/>
+                        <h4>React</h4>
+                    </div>
+                    <div>
+                        <img src="img/typescript.svg"/>
+                        <h4>TypeScript</h4>
+                    </div>
+                    <div>
+                        <img src="img/solidity.svg"/>
+                        <h4>Solidity</h4>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>        
+
+    <hr>
+
+    <section class="projects-section" id="projects">
+        <h2>Proyectos</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="img/colibri.png" alt="">
+                <div class="project-info">
+                    <h3>Proyecto Colibrí</h3>
+                    <p>Página web que notifica sobre la cantidad de botellas desechadas y la cantidad de CO2 actual en el aire.</p>
+                    <a href="#" target="_blank">Ver proyecto →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/sayc.jpg" alt="">
+                <div class="project-info">
+                    <h3>SAyC</h3>
+                    <p>Aplicación web que ofrece un cronograma, un mapa e información sobre un evento anual de nuestro colegio.</p>
+                    <a href="#" target="_blank">Ver proyecto →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/huertaenred.png" alt="">
+                <div class="project-info">
+                    <h3>Huerta en red</h3>
+                    <p>Red social que busca conectar a los amantes de la agricultura urbana.</p>
+                    <a href="#" target="_blank">Ver proyecto →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="contact-title">Contacto</h2>
+            <p id="form-status"></p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input
+                        type="text"
+                        class="form-input"
+                        placeholder="Tu nombre"
+                        name="name"
+                        id="name"
+                        required
+                    >
+                </div>
+               
+                <div class="form-group">
+                    <input
+                        type="email"
+                        class="form-input"
+                        placeholder="Tu email"
+                        name="email"
+                        id="email"
+                        required
+                    >
+                </div>
+               
+                <div class="form-group">
+                    <textarea
+                        class="form-input"
+                        placeholder="Mensaje"
+                        name="message"
+                        id="message"
+                        required
+                    ></textarea>
+                </div>
+                <button type="submit" class="btn">
+                    Enviar
+                </button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <span>Copyright 2024. Diseñado y construido por <i><b>Demeck</b></i>. </span>
+    </footer>
+</body>
