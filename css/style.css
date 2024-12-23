@@ -239,6 +239,15 @@ p {
     height: 50px;
 }
 
+div.skills-item:nth-child(3) > div:nth-child(2) > div:nth-child(2) > img:nth-child(1) {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(7500%) hue-rotate(268deg) brightness(101%) contrast(103%);
+}
+
+div.skills-item:nth-child(4) > div:nth-child(2) > div:nth-child(3) > img:nth-child(1) {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(7500%) hue-rotate(268deg) brightness(101%) contrast(103%);
+}
+
+
 .card-wrapper > h2:nth-child(1) {
     text-align: center;
   }
